@@ -21,5 +21,14 @@
     <ClCompile Include="test_2.cpp">
       <Filter>资源文件</Filter>
     </ClCompile>
+    <ClCompile Include="test_3.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_7.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_8.cpp">
+      <Filter>资源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
