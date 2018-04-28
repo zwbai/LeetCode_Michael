@@ -48,15 +48,15 @@ string stringToString(string input) {
 	}
 	return result;
 }
-// 
-// int main() {
-// 	string line;
-// 	while (getline(cin, line)) {
-// 		string s = stringToString(line);
-// 
-// 		int ret = Solution().lengthOfLongestSubstring(s);
-// 
-// 		string out = to_string(ret);
-// 		cout << out << endl;
-// 	}
-// }
+
+int main() {
+	string line;
+	while (getline(cin, line)) {
+		string s = stringToString(line);
+
+		int ret = Solution().lengthOfLongestSubstring(s);
+
+		string out = to_string(ret);
+		cout << out << endl;
+	}
+}
