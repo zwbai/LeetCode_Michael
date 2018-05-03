@@ -1,4 +1,5 @@
 #include <vector>
+#include <iostream>
 using namespace std;
 
 class Solution {
@@ -17,3 +18,12 @@ public:
 		return sum;
 	}
 };
+
+int main(){
+	int a,b;
+	a = 0;
+	b = 0;
+	while(cin >> a >> b){
+		
+	}
+}
