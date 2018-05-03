@@ -1,5 +1,8 @@
 #include <vector>
 #include <iostream>
+#include <algorithm>  
+#include <functional>  
+#include <string>  
 using namespace std;
 
 class Solution {
@@ -19,11 +22,3 @@ public:
 	}
 };
 
-int main(){
-	int a,b;
-	a = 0;
-	b = 0;
-	while(cin >> a >> b){
-		
-	}
-}

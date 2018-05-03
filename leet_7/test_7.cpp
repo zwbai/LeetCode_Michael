@@ -1,3 +1,10 @@
+/*
+LeetCode No.7 Reverse Integer
+Description:
+	Given a 32-bit signed integer, reverse digits of an integer.
+CodeBy: Michael_zwbai
+SearchMore:https://github.com/zwbai/LeetCode_Michael
+*/
 #include <string>
 #include <math.h>
 #include <assert.h>
@@ -15,7 +22,7 @@ public:
 			res = res * 10 + x % 10;
 			x /= 10;
 		}
-		return (res<INT8_MIN || res>INT8_MAX) ? 0 : res;
+		return (res<INT32_MIN || res>INT32_MAX) ? 0 : res;
 	}
 };
 

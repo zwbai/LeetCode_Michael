@@ -1,3 +1,14 @@
+/*
+LeetCode No.3 Longest Substring Without Repeating Characters
+Description:
+	Given a string, find the length of the longest substring without repeating characters.
+	Examples:
+		Given "abcabcbb", the answer is "abc", which the length is 3.
+		Given "bbbbb", the answer is "b", with the length of 1.
+		Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
+CodeBy: Michael_zwbai
+SearchMore:https://github.com/zwbai/LeetCode_Michael
+*/
 #include <string>
 #include <math.h>
 #include <assert.h>
@@ -51,12 +62,14 @@ string stringToString(string input) {
 
 int main() {
 	string line;
+	cout << "input any string :" << endl;
 	while (getline(cin, line)) {
 		string s = stringToString(line);
 
 		int ret = Solution().lengthOfLongestSubstring(s);
 
 		string out = to_string(ret);
-		cout << out << endl;
+		cout << "lengthOfLongestSubstring :" << out << endl;
+		cout << "input any string or exit with Ctrl+C :" << endl;
 	}
 }
