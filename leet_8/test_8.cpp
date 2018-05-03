@@ -41,7 +41,7 @@ public:
 string stringToString(string input) {
 	assert(input.length() >= 2);
 	string result;
-	for (int i = 1; i < input.length() - 1; i++) {
+	for (int i = 0; i < input.length() ; i++) {
 		char currentChar = input[i];
 		if (input[i] == '\\') {
 			char nextChar = input[i + 1];
