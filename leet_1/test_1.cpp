@@ -1,4 +1,8 @@
 #include <vector>
+#include <iostream>
+#include <algorithm>  
+#include <functional>  
+#include <string>  
 using namespace std;
 
 class Solution {
@@ -17,3 +21,4 @@ public:
 		return sum;
 	}
 };
+
